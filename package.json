@@ -1,0 +1,31 @@
+{
+  "name": "minerva",
+  "version": "1.0.0",
+  "description": "A simple CLI tool to convert HTML to PNG using Electron (Chromium).",
+  "keywords": [
+    "chrome",
+    "cli",
+    "html",
+    "pdf",
+    "converter",
+    "generate"
+  ],
+  "homepage": "https://www.athenapdf.com/",
+  "bugs": {
+    "url": "https://github.com/arachnys/athenapdf/issues"
+  },
+  "license": "MIT",
+  "author": "Ian Lai <ian@arachnys.com>",
+  "main": "athenapdf.js",
+  "bin": "./bin/athenapdf",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arachnys/athenapdf.git"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "puppeteer": "^1.6.1",
+    "rw": "^1.3.2"
+  },
+  "devDependencies": {}
+}
